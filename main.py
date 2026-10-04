@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 try:
-    st.image("assets/banner.png", use_container_width=True)
+    st.image("banner.png", use_container_width=True)
 except Exception:
     st.warning("Imagem de banner não encontrada.")
 
